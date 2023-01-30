@@ -9,7 +9,6 @@ To deploy and expose the whole infrastrucre, simply run:
 
 Running the script will deploy a MySQL/WordPress/phpMyAdmin stack, all behind an Nginx instance to redirect traffic to the appropriate service. Additionally, an FTPS server is setup. All services are monitored by telegraf and a Grafana/InfluxDB stack.
 
- ```
 ## 🎆 Screenshots:
 ### Infrastructure diagram:
  ![Screenshot 2021-05-28 201606](https://user-images.githubusercontent.com/58333462/120032466-22b1ca80-bff2-11eb-9d1c-c6f638b007a4.png)
